@@ -36,7 +36,7 @@ $(window).resize(function() {
 })(jQuery);
 
 function timeElapse() {
-	var startDate = new Date("2006-11-17T00:00:00");
+	var startDate = new Date("2006-03-11T00:00:00");
 	var currentDate = new Date();
 	var seconds = (currentDate.getTime() - startDate.getTime()) / 1000;
 	
